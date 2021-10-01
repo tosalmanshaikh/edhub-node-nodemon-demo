@@ -352,3 +352,50 @@ if (gra >= 8 && gra <= 9){
 if (gra >= 9){
     console.log("ulitmate");
 }
+
+
+//switch statements
+
+const fruitX = "apple";
+
+
+switch (fruitX) {
+    case "banana":
+        console.log("go bananas");
+        break;
+
+    case "oranges":
+        console.log("good morning ornages");
+        break;
+
+    case "apple":
+        console.log("there you go apple");
+        break;
+
+
+    default:
+        console.log("Sorry we dont have them, not in season");
+}
+
+
+
+
+const perronX = "prizes";
+
+switch (perronX){
+    case "coffee":
+        console.log("nice choice");
+        break;
+    case "juice":
+        console.log("seriously?")
+        break;
+
+    case "internet password":
+    case "prizes":
+        console.log("please check our menu, Thankyou!");
+        break;
+
+    default:
+        console.log("sorry we dont have it!");
+
+}
