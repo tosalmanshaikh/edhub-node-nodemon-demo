@@ -332,3 +332,23 @@ switch (bakeryProdcuts){
         console.log("sorry fusst pants, we dont have it!");
 
 }
+
+
+
+const gra = 9;
+
+if (gra < 5.5){
+    console.log("fail");
+}
+
+if (gra >= 5.5 && gra < 8){
+    console.log("pass");
+}
+
+if (gra >= 8 && gra <= 9){
+    console.log("distinction");
+}
+
+if (gra >= 9){
+    console.log("ulitmate");
+}
